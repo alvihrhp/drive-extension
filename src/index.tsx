@@ -14,23 +14,6 @@ import { BrowserTracing } from "@sentry/tracing";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-Sentry.init({
-  dsn: process.env.REACT_APP_SENTRY_DSN,
-  integrations: [
-    new BrowserTracing({
-      routingInstrumentation: Sentry.reactRouterV6Instrumentation(
-        React.useEffect,
-        useLocation,
-        useNavigationType,
-        createRoutesFromChildren,
-        matchRoutes
-      ),
-    }),
-  ],
-
-  tracesSampleRate: 1.0,
-});
-
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

@@ -5,8 +5,6 @@ import { google } from "googleapis";
 import { PrismaClient } from "@prisma/client";
 /** Axios */
 import axios from "axios";
-/** Oauth2 Keys */
-import keys from "../ouath2.keys.json";
 /** Helper */
 import { BaseURl } from "../helper";
 /** Logger */

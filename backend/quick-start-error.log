@@ -1,1 +1,2 @@
 {"are":"Drive folder already connected to another channel","level":"error","message":"Error on method getSub inside Drive Controller","service":"Slack-Drive","timestamp":"2022-09-12 14:51:30"}
+{"are":{"clientVersion":"3.15.2","code":"P2025","meta":{"cause":"Record to delete does not exist."}},"level":"error","message":"Error on app event channel_deleted","service":"Slack-Drive","timestamp":"2022-09-16 00:40:47"}
