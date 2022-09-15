@@ -49,7 +49,7 @@ var axios_1 = __importDefault(require("axios"));
 var helper_1 = require("./helper");
 /** Logger */
 var logger_1 = __importDefault(require("./logger"));
-var _a = (0, createApp_1.createApp)("strata"), app = _a.app, receiver = _a.receiver;
+var _a = (0, createApp_1.createApp)("slackgoogledrive"), app = _a.app, receiver = _a.receiver;
 exports.receiver = receiver;
 var prisma = new client_1.PrismaClient();
 app.event("group_deleted", function (_a) {

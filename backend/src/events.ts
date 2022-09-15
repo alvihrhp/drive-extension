@@ -8,7 +8,7 @@ import { BaseURl } from "./helper";
 /** Logger */
 import logging from "./logger";
 
-const { app, receiver } = createApp("strata");
+const { app, receiver } = createApp("slackgoogledrive");
 
 const prisma = new PrismaClient();
 
