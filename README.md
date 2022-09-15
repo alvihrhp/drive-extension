@@ -101,7 +101,7 @@ For the backend we're using Express.JS so it should be alright to use npm.
 Copy the below link to your browser: 
 
 ```sh
-https://slack.com/oauth/v2/authorize?client_id=3660659288997.3660674464965&scope=incoming-webhook,bookmarks:read,bookmarks:write,channels:read,groups:read,im:read,mpim:read,team:read,users.profile:read,users:read,users:read.email&user_scope=bookmarks:read,bookmarks:write,channels:read,groups:read,im:read,mpim:read,team:read,users.profile:read,users:read,users:read.email
+https://slack.com/oauth/v2/authorize?client_id=4073518364263.4081498183766&scope=bookmarks:read,bookmarks:write,channels:read,groups:read,im:read,incoming-webhook,mpim:read,team:read,users.profile:read,users:read,users:read.email&user_scope=bookmarks:read,bookmarks:write,channels:read,channels:write,groups:history,groups:write,groups:read,im:read,im:write,mpim:read,team:read,users.profile:read,users:read,users:read.email
 ```
 
 After that it should open a page that contains: 
